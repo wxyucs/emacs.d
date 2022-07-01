@@ -17,6 +17,8 @@
 (add-to-list 'load-path (expand-file-name "lisp" user-emacs-directory))
 (require 'init-benchmarking) ;; Measure startup time
 
+(defconst *is-a-mac* (eq system-type 'darwin))
+
 
 ;; Adjust garbage collection thresholds during startup, and thereafter
 
@@ -37,7 +39,8 @@
 
 (require 'init-theme)
 (require 'init-cpp)
-
+(require 'init-org)
+(require 'init-git)
 
 (provide 'init)
 

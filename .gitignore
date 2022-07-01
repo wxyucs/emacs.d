@@ -2,5 +2,7 @@
 elpa/
 elpa-27.1/
 tutorial/
+transient/
 .lsp-session-v1
 custom.el
+org-clock-save.el
