@@ -1,4 +1,6 @@
 .cache/
 elpa/
+elpa-27.1/
 tutorial/
 .lsp-session-v1
+custom.el
