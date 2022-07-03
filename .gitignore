@@ -1,6 +1,6 @@
 .cache/
 elpa/
-elpa-27.1/
+elpa-*/
 tutorial/
 transient/
 .lsp-session-v1
