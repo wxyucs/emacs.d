@@ -32,5 +32,7 @@
   (require 'dap-cpptools)
   (yas-global-mode))
 
+(setq-default c-basic-offset 4)
+
 (provide 'init-cpp)
 ;;; init-cpp.el ends here
