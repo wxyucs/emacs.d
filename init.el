@@ -41,6 +41,7 @@
 (require 'init-cpp)
 (require 'init-org)
 (require 'init-git)
+(require 'init-evil)
 
 (provide 'init)
 
