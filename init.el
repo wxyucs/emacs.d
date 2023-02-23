@@ -42,6 +42,7 @@
 (require 'init-org)
 (require 'init-git)
 (require 'init-evil)
+(require 'init-treemacs)
 
 (provide 'init)
 
