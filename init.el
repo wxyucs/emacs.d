@@ -38,11 +38,13 @@
 (require 'init-elpa)      ;; Machinery for installing required packages
 
 (require 'init-theme)
-(require 'init-cpp)
 (require 'init-org)
 (require 'init-git)
+(require 'init-lsp)
 (require 'init-evil)
 (require 'init-treemacs)
+
+(require 'init-cpp)
 
 (provide 'init)
 
