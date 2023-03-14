@@ -8,3 +8,4 @@ custom.el
 org-clock-save.el
 recentf
 /.dap-breakpoints
+/projectile-bookmarks.eld
