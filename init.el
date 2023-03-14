@@ -45,6 +45,7 @@
 (require 'init-treemacs)
 
 (require 'init-cpp)
+(require 'init-rust)
 
 (provide 'init)
 
