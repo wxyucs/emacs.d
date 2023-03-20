@@ -23,5 +23,10 @@
 (global-set-key (kbd "C-x t a") 'treemacs-add-and-display-current-project)
 (global-set-key (kbd "C-x t e") 'treemacs-display-current-project-exclusively)
 
+;; a quick fix on https://github.com/Alexander-Miller/treemacs/issues/1009
+(require 'ace-window)
+(defun -ignore-arguments (orig &rest args) (funcall orig))
+(add-function :around (symbol-function 'ace-select-window) #'-ignore-arguments)
+
 (provide 'init-treemacs)
 ;;; init-treemacs.el ends here
