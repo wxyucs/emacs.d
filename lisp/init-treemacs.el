@@ -22,6 +22,7 @@
 (global-set-key (kbd "C-x t g") 'treemacs-select-window)
 (global-set-key (kbd "C-x t a") 'treemacs-add-and-display-current-project)
 (global-set-key (kbd "C-x t e") 'treemacs-display-current-project-exclusively)
+(global-set-key (kbd "M-o") 'ace-window)
 
 ;; a quick fix on https://github.com/Alexander-Miller/treemacs/issues/1009
 (require 'ace-window)
