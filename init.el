@@ -44,6 +44,7 @@
 (require 'init-evil)
 (require 'init-treemacs)
 (require 'init-tree-sitter)
+(require 'init-helm)
 
 (require 'init-cpp)
 (require 'init-rust)
