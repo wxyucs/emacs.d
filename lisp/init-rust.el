@@ -15,10 +15,15 @@
           (lambda () (setq indent-tabs-mode nil)))
 (add-hook 'rust-mode-hook
           (lambda () (prettify-symbols-mode)))
+(add-hook 'rust-mode-hook 'lsp-deferred)
 
 (setq rust-format-on-save t)
 
-(add-hook 'rust-mode-hook 'lsp-deferred)
+(add-to-list 'display-buffer-alist
+                    `(,(rx bos "*cargo" (* not-newline) "*" eos)
+                         (display-buffer-in-side-window)
+                         (inhibit-same-window . t)
+                         (window-height . 0.4)))
 
 (provide 'init-rust)
 ;;; init-rust.el ends here
