@@ -43,6 +43,7 @@
 (require 'init-lsp)
 (require 'init-evil)
 (require 'init-treemacs)
+(require 'init-tree-sitter)
 
 (require 'init-cpp)
 (require 'init-rust)
