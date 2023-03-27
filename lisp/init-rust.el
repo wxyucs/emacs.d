@@ -23,7 +23,7 @@
                     `(,(rx bos "*cargo" (* not-newline) "*" eos)
                          (display-buffer-in-side-window)
                          (inhibit-same-window . t)
-                         (window-height . 0.4)))
+                         (window-height . 0.3)))
 
 (provide 'init-rust)
 ;;; init-rust.el ends here
