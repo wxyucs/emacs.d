@@ -3,12 +3,10 @@
 ;;; Code:
 
 ;; Download treemacs
-(unless (package-installed-p 'treemacs)
-  (package-install 'treemacs))
-(unless (package-installed-p 'treemacs-evil)
-  (package-install 'treemacs-evil))
-(unless (package-installed-p 'treemacs-projectile)
-  (package-install 'treemacs-projectile))
+(setq package-selected-packages '(treemacs treemacs-evil treemacs-projectile))
+(when (cl-find-if-not #'package-installed-p package-selected-packages)
+  (package-refresh-contents)
+  (mapc #'package-install package-selected-packages))
 
 ;; Enable treemacs
 (require 'treemacs)
