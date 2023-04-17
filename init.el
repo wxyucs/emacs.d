@@ -49,6 +49,7 @@
 
 (require 'init-cpp)
 (require 'init-rust)
+(require 'init-markdown)
 
 (provide 'init)
 
