@@ -46,6 +46,7 @@
 (require 'init-tree-sitter)
 (require 'init-helm)
 (require 'init-window)
+(require 'init-project)
 
 (require 'init-cpp)
 (require 'init-rust)
