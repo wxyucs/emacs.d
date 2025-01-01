@@ -11,3 +11,7 @@ recentf
 /projectile-bookmarks.eld
 /bookmarks
 /elpy/
+/eshell/
+/projectile.cache
+/eln-cache/
+/custom.el~
